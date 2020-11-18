@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Advertise</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, sint! Minus iure, labore quo enim expedita harum, tempora deleniti incidunt accusamus natus quae vero. Sit quasi accusamus repudiandae quaerat culpa.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, sint! Minus iure, labore quo enim expedita harum, tempora deleniti incidunt accusamus natus quae vero. Sit quasi accusamus repudiandae quaerat culpa.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, sint! Minus iure, labore quo enim expedita harum, tempora deleniti incidunt accusamus natus quae vero. Sit quasi accusamus repudiandae quaerat culpa.
+    </p>
+    <script>
+
+        var i = 20;
+        function scrolling()
+        {   
+            window.scrollTo(0, (i+10))
+            i = i+10;
+        }
+        
+        window.onload = (event) => {
+            var i = setInterval("scrolling()",50);
+        };
+        
+
+
+    function Q3_Bonus(event) {
+        if(event.keyCode == '16' || event.keyCode == '83')
+            {window.close();}
+    }
+    document.onkeydown = Q3_Bonus;
+        
+
+    </script>
+    
+</body>
+</html>

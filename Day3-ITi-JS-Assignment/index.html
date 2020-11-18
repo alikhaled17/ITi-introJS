@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            height: 2800px;
+        }
+        a 
+        {
+            cursor: pointer;
+            border: 1px solid black;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+
+        #floatTxt
+        {
+            background: none;
+            width: 150px;
+            border: 2px solid black;
+            border-width: 2px 0 2px 2px;
+            padding: 2px;
+            color: black;
+            right:10px;
+            font-weight: bold;
+            position: fixed;
+            transition: all .01s ease-in-out;
+            border-radius: 10px 0 0 10px;
+        }
+        
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    Q1 ****** Q1_Bonus<br>
+    <input type="text" id="txt" onkeydown="Q1(event)">
+    <div id="Answer_1"></div>
+    <hr> 
+
+    Q2<br>
+    <input type="text" id="txtboxid">
+    <hr> 
+    
+    Q3_Q4 ****** Q3_Bonus<br><br>
+    <a onclick="Q3_Q4()">Advertise</a>
+    <hr> 
+
+    Q5<br><br>
+    <form action="helpers/user_info.html" method="get">
+
+        <input placeholder="username" type="text" name="username" >
+        <input placeholder="password" type="password" name="pass" >
+        <input type="submit" value="submit">
+    </form>
+    <hr>
+
+    Q2_Bonus<br>
+    <input type="button" value="Show Browser Info" onclick="Q2_Bonus()">
+    <div id="Answer_Q1_B"></div>
+    <hr> 
+
+    <span id="floatTxt">"Q4 Bonus Text"</span>
+
+    Q5_Bonus<br>
+    <input type="textarea" id="Q4_Bonus" onmousedown="mous(event)" onkeypress="spaceKey(event)">
+    <hr>
+
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
