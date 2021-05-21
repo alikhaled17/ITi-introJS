@@ -1,1 +1,1 @@
-# ITi-introJS
+# JavaScript Assignments
